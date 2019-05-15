@@ -14,33 +14,33 @@
 
 ### 浏览器:
 ``` html
-<script src="./node_modules/utilscore/dist/index.js"></script>
+<script src="./node_modules/jstools/dist/index.js"></script>
 <!-- <script src="./dist/index.js"></script> -->
 <script>
-	let pwd = utilscore.mask('password:123456789',4);
+	let pwd = jstools.mask('password:123456789',4);
 	console.log('pwd:',pwd) // pwd: **************6789
 </script>
 ```
 
 ### npm:
 ``` bash
-$ npm i utilscore
+$ npm i jstools
 ```
 ### yarn:
 ``` bash
-$ yarn add utilscore
+$ yarn add jstools
 ```
 ### cnpm:
 ``` bash
-$ cnpm i utilscore
+$ cnpm i jstools
 ```
 
 React、VueJS,小程序等javascript环境
 
 ``` javascript
 // 完整引入
-import utilscore from 'utilscore'
-let pwd = utilscore.mask('password:123456789',4);
+import jstools from 'jstools'
+let pwd = jstools.mask('password:123456789',4);
 console.log('pwd:',pwd) // pwd: **************6789
 ```
 
@@ -48,7 +48,7 @@ console.log('pwd:',pwd) // pwd: **************6789
 
 你真的不需要完整引入所有函数，所以只引入需要使用的方法即可。
 ``` javascript
-import { mask } from 'utilscore'
+import { mask } from 'jstools'
 let pwd = mask('password:123456789',4);
 console.log('pwd:',pwd) // pwd: **************6789
 ```

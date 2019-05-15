@@ -12,7 +12,7 @@ import * as other from './libs/other'
 
 import './libs/prototype'
 
-const utilscore = {
+const jstools = {
     ...obj,
     ...arr,
     ...date,
@@ -25,10 +25,10 @@ const utilscore = {
     version:packageJSON.version,
 }
 
-global.utilscore = utilscore
+global.jstools = jstools
 
-for(let key in utilscore){
-	exports[key] = utilscore[key]
+for(let key in jstools){
+	exports[key] = jstools[key]
 }
 
 
