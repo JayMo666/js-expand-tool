@@ -1,5 +1,5 @@
 {
-  "name": "utilstool",
+  "name": "jstools",
   "version": "0.0.10",
   "description": "javascript 工具函数包",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "repository": {
   },
   "keywords": [
-    "utilstool",
+    "jstools",
     "common",
     "commonJS",
     "common-js",
