@@ -26,5 +26,9 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^5.16.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
