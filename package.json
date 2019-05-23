@@ -1,6 +1,6 @@
 {
   "name": "js-expand-tool",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "javascript 工具函数包",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashleygwilliams/my_package.git"
+    "url": "https://github.com/JayMo666/js-expand-tool.git"
   },
   "keywords": [
     "jsExpandTool",
