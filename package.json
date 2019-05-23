@@ -4,12 +4,13 @@
   "description": "javascript 工具函数包",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.js",
-    "build": "parcel build index.js"
+    "build": "npm run lint && parcel build index.js",
+    "test": "react-scripts test --env=jsdom",
+    "lint": "eslint libs --fix",
+    "lint:create": "eslint --init"
   },
-  "repository": {
-  },
+  "repository": {},
   "keywords": [
     "jstools",
     "common",
@@ -22,5 +23,8 @@
     "javascript"
   ],
   "author": "jaymo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
 }
