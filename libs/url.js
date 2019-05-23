@@ -34,7 +34,7 @@ export const Url = (url, options = {}) => {
     //    "rsv_n":"2",
     //    "rsv_sug3":"1"
     // }
- *  // jstools.URLSearchParams({
+ *  // jsExpandTool.URLSearchParams({
     // 	name:'cgx',
     // 	test:'ceshi'
     // })

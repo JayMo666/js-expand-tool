@@ -12,7 +12,7 @@ import * as other from './libs/other'
 
 import './libs/prototype'
 
-const jstools = {
+const jsExpandTool = {
     ...obj,
     ...arr,
     ...date,
@@ -25,10 +25,10 @@ const jstools = {
     version:packageJSON.version,
 }
 
-global.jstools = jstools
+global.jst = jsExpandTool
 
-for(let key in jstools){
-	exports[key] = jstools[key]
+for(let key in jsExpandTool){
+	exports[key] = jsExpandTool[key]
 }
 
 

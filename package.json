@@ -1,18 +1,22 @@
 {
-  "name": "jstools",
-  "version": "0.0.10",
+  "name": "js-expand-tool",
+  "version": "0.0.12",
   "description": "javascript 工具函数包",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.js",
-    "build": "npm run lint && parcel build index.js",
+    "build": "parcel build index.js",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint libs --fix",
     "lint:create": "eslint --init"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashleygwilliams/my_package.git"
+  },
   "keywords": [
-    "jstools",
+    "jsExpandTool",
+    "js-expand-tool",
     "common",
     "commonJS",
     "common-js",
