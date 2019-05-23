@@ -77,6 +77,8 @@ console.log('pwd:',pwd) // pwd: **************6789
 > ###  [String](https://github.com/JayMo666/jstools/blob/master/libs/string.js)
 
 - mask 使用 * 遮蔽字符串。
+- camelCaseToUnderLine 驼峰写法转下划线写法
+- underlineToCamelCase 下划线写法转驼峰写法
 
 > ###  [Number](https://github.com/JayMo666/jstools/blob/master/libs/number.js)
 
