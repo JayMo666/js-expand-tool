@@ -1,6 +1,6 @@
 {
   "name": "js-expand-tool",
-  "version": "0.0.14",
+  "version": "0.0.16",
   "description": "javascript 工具函数包",
   "main": "index.js",
   "scripts": {

@@ -14,5 +14,18 @@ export const uniqueBy = function(arr,key){
  * @param {array} arr 去重的数组
  * @example unique2([1,2,2,3,4,3,4,7]) => [1, 2, 3, 4, 7]
  */
-export const unique = (arr) =>
-    arr.filter((element,index,array)=>array.indexOf(element) === index)
+export const unique = (arr) => {
+  arr.filter((element,index,array)=>array.indexOf(element) === index)
+}
+
+/**
+ * 数组完全展开
+ * @param {array} arr 去重的数组
+ * @example unique2([1,2,2,3,4,3,4,7]) => [1, 2, 3, 4, 7]
+ */
+export const flat = (arr) => {
+  while (arr.some(t => Array.isArray(t))) {
+    arr = ([]).concat.apply([], arr)
+  }
+  return arr
+}
