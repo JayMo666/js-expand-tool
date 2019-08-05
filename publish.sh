@@ -13,7 +13,7 @@ then
   git commit -m "[build] $VERSION"
   npm version $VERSION --meassage "[release] $VERSION"
   git push origin master
-  echo 'push to github finish!'
+  echo 'success push to github!'
   #publish
   npm publish
 fi
