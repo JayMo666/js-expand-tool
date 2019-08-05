@@ -6,7 +6,7 @@ echo "Releasing $VERSION ..."
 #commit
 git add -A
 git commit -m "[build] $VERSION"
-npm version $VERSION --meassage "[release] $VERSION"
+npm version $VERSION
 git push origin master
 echo 'success push to github!'
 #publish
