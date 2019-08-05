@@ -15,5 +15,5 @@ then
   git push origin master
   echo 'success push to github!'
   #publish
-  # npm publish
+  npm publish
 fi
