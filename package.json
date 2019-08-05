@@ -1,6 +1,6 @@
 {
   "name": "js-expand-tool",
-  "version": "0.0.16",
+  "version": "0.1.21",
   "description": "javascript 工具函数包",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,9 @@
     "build": "parcel build index.js",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint libs --fix",
-    "lint:create": "eslint --init"
+    "lint:create": "eslint --init",
+    "release": "npm run lint && npm run build && npm publish ",
+    "sh": "publish.sh"
   },
   "repository": {
     "type": "git",

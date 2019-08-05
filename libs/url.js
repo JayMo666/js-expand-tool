@@ -46,6 +46,7 @@ export const URLSearchParams = (param) => {
         return Object.keys(param).map(key => `${key}=${encodeURIComponent(JSON.stringify(param[key]))}`).join('&')
     } else if ($isString(param)) {
         let maps = {};
+        // eslint-disable-next-line
         param.replace(/^.[^\?]*\?/g, '').split('&').forEach(res => {
             let row = decodeURIComponent(res).split('=');
             maps[row[0] + ''] = decodeURIComponent(row[1])
