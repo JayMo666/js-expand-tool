@@ -11,3 +11,5 @@ git push origin master
 echo 'success push to github!'
 #publish
 npm publish
+echo "success publish"
+read publish
