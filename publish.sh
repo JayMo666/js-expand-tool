@@ -11,9 +11,9 @@ then
   #commit
   git add -A
   git commit -m "[build] $VERSION"
-  npm version $VERSION --meassage "[release] $VERSION"
+  # npm version $VERSION --meassage "[release] $VERSION"
   git push origin master
   echo 'success push to github!'
   #publish
-  npm publish
+  # npm publish
 fi
