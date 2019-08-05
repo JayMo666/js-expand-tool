@@ -9,8 +9,8 @@
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint libs --fix",
     "lint:create": "eslint --init",
-    "release": "npm run lint && npm run build && npm publish ",
-    "sh": "publish.sh"
+    "sh": "publish.sh",
+    "release": "npm run lint && npm run build && npm run sh"
   },
   "repository": {
     "type": "git",
