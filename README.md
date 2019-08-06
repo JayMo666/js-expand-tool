@@ -64,7 +64,9 @@ console.log('pwd:',pwd) // pwd: **************6789
 
 - uniqueBy 	根据属性去重数组。
 - unique	普通数组去重。
-
+- flat 数组完全展开
+- range 创建一个长度length,值从start开始递增的数组，每次递增step
+- repeat 重复数组
 > ###  [Date](https://github.com/JayMo666/js-expand-tool/blob/master/libs/date.js)
 
 - formatTime 格式化时间。
